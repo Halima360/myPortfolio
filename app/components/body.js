@@ -89,7 +89,7 @@ function Body() {
               <div className='flex '>
               <Link href={'https://github.com/Halima360'} target='blank'><IoLogoGithub size={30}/> 
             </Link>
-            <Link href={''}><FaLinkedin size={30} /></Link>
+            <Link target='blank' href={'https://www.linkedin.com/in/halimatu-ibrahim-4aab82227'}><FaLinkedin size={30} /></Link>
               </div>
            
             </div>

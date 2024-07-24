@@ -7,7 +7,7 @@ function ImageCards({link,image,text}) {
   return (
     <div className='flex flex-col items-center justify-center'>
         <Link  target='blank' onMouseEnter={() => setViewMore(true)}  onMouseLeave={() => setViewMore(false)} href={link}>
-        <Image className='' src={image}/>
+        <Image alt='' className='' src={image}/>
         </Link>
         <p className={`md:hidden text-sm text-blue-50 ${viewMore && 'hidden'}`}>{text}</p>
         {viewMore && <p className=' text-blue-50'>{text}</p> }
