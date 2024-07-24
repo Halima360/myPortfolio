@@ -31,7 +31,7 @@ function Body() {
         
         <div className='text-blue-100   w-full p-10 rounded'>
         <p className='font-bold font-mono text-4xl italic flex'>Hi,<span><MdWavingHand color='white' direction={'right'} /></span></p>
-        <p className='font-bold font-mono text-4xl italic'>I'm Halima,</p>
+        <p className='font-bold font-mono text-4xl italic'>I&apos;m Halima,</p>
         <p className='font-bold font-mono text-4xl italic'>Frontend web developer</p>
         </div>
         
@@ -68,11 +68,11 @@ function Body() {
         <h1 className='text-center mt-16 text-4xl text-white font-bold  pb-5 font-serif,Georgia'>My Skills</h1> 
         <div className='flex flex-col sm:flex-row sm:items-top items-center justify-center
          md:flex-wrap md:space-x-20 pb-10 space-y-10'>
-            <Image className='hover:shadow-md hover:shadow-white  hover:scale-96'  src={html} width={150}/>
-            <Image className='hover:shadow-md hover:shadow-white '  src={CSS} width={160} />
-            <Image className='hover:shadow-md hover:shadow-white hover:scale-96'  src={javaScript} width={200}/>
-            <Image className='hover:shadow-md hover:shadow-white hover:scale-96'  src={react} width={200} />
-            <Image  className='hover:shadow-md hover:shadow-white hover:scale-96' src={next} width={200} />
+            <Image alt='' className='hover:shadow-md hover:shadow-white  hover:scale-96'  src={html} width={150}/>
+            <Image alt='' className='hover:shadow-md hover:shadow-white '  src={CSS} width={160} />
+            <Image alt='' className='hover:shadow-md hover:shadow-white hover:scale-96'  src={javaScript} width={200}/>
+            <Image alt='' className='hover:shadow-md hover:shadow-white hover:scale-96'  src={react} width={200} />
+            <Image alt='' className='hover:shadow-md hover:shadow-white hover:scale-96' src={next} width={200} />
         </div>
         </div>
         
